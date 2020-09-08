@@ -1,4 +1,4 @@
-1. How many orders were shipped by Speedy Express in total?
+# 1. How many orders were shipped by Speedy Express in total?
 
 
 SELECT COUNT(OrderId) as 'Total Orders' 
@@ -6,10 +6,10 @@ SELECT COUNT(OrderId) as 'Total Orders'
 	JOIN Shippers as s on o.ShipperId = s.ShipperID
 	where ShipperName = "Speedy Express"
 
-Answer: 54 orders were shipped by Speedy Express in total
+# Answer: 54 orders were shipped by Speedy Express in total
 
 
-2. What is the last name of the employee with the most orders?
+# 2. What is the last name of the employee with the most orders?
 
 
 WITH Table1 AS (
@@ -22,10 +22,10 @@ SELECT COUNT(OrderID) AS "Orders", e.EmployeeID, e.LastName
 SELECT LastName FROM Table1 WHERE Orders = (SELECT max(orders) FROM Table1)
 
 
-Answer: Last name "Peacock" had the most orders
+# Answer: Last name "Peacock" had the most orders
 
 
-3. What product was ordered the most by customers in Germany?
+# 3. What product was ordered the most by customers in Germany?
 
 
 SELECT p.ProductID, COUNT(p.ProductID) as "Counts"
@@ -37,4 +37,4 @@ SELECT p.ProductID, COUNT(p.ProductID) as "Counts"
 	GROUP BY p.ProductID
     	ORDER BY Counts DESC
 
-Answer: Product ID #5 was ordered the most by customers in Germany
+# Answer: Product ID #5 was ordered the most by customers in Germany
