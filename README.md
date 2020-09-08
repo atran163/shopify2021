@@ -16,7 +16,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-For question 1, we had to analyze the AOV calculation from Shopify and see why our AOV, average order value, was so high for shoes, a relatively . I dug a into the data and found issues why the AOV may be skewed. But when finding better ways to evalute this data, I kept wondering "what does the customer want?" Sure we can say that so and so is what happened when we calculated AOV, but why is this the case? What improvements can we make? Are we talking to Shopify or the business owners? Do they want to increase sales or website traffic? I wish I could know more about these! 
+For question 1, we had to analyze the AOV calculation and see why our AOV, average order value, was so high for shoes. I dug a into the data and found issues why the AOV may be skewed. I found that median order value is a better metric. I then wanted to see how we can take this dataset further to achieve more insights for the customer. I found myself asking though, who are we reporting to? Are we reporting to Shopify? The business owners themselves? Do we want to find out about the competition for them? 
 
 For question 2, I wanted to make my SQL queries as readable to the human eye as possible. Even if you had the faintest grasp on SQL, I wanted to make sure that that user understood what was going on. 
 
